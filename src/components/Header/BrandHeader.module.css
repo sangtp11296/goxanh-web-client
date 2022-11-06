@@ -1,0 +1,84 @@
+.brandHeaderContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--line);
+    z-index: 100;
+    background-color: var(--background-color);
+}
+.languagePart{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.languagePart span{
+    font: 600 14px 'Roboto Mono', monospace;
+    color: var(--brand);
+    text-transform: uppercase;
+}
+.hide{
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+.arrow:hover .hide{
+    visibility: visible;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+.hiddenBox{
+    position: relative;
+}
+.boxMenu{
+    position: absolute;
+    background: var(--pop-up);
+    border-radius: 4px;
+    padding: 5px 20px;
+    width: 80px;
+    top: 25px;
+    right: -10px;
+    line-height: 180%;
+    color: whitesmoke;
+    list-style-type: none;
+}
+.dotItem{
+    font: 400 14px 'Roboto Mono', monospace;
+    padding-bottom: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.boxMenu::after{
+    bottom: 100%;
+    right: 50px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: var(--pop-up);
+    border-width: 6px;
+    margin-left: -6px;
+}
+.arrow i{
+    margin-left: 10px;
+    color: var(--brand);
+}
+.socialPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialPart a{
+    margin: 10px;
+    color: var(--brand);
+    opacity: .7;
+    scale: 1.1;
+}
+.socialPart a:hover{
+    opacity: 1;
+}

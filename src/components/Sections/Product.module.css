@@ -1,0 +1,53 @@
+.headline{
+    font: 600 70px 'Vollkorn SC', serif;
+    color: var(--brand);
+    align-self: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.productWrapper{
+    display: flex;
+}
+.productContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.productWrapper{
+    background-color: var(--brand);
+    height: 700px;
+    width: 100%;
+}
+.productInfo{
+    width: 50%;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.productTitle{
+    font: 500 50px 'Lora', serif;
+    color: var(--background-color);
+    margin-bottom: 15px;
+}
+.productTagline{
+    font: 400 30px 'Raleway', sans-serif;
+    color: var(--background-color);
+    margin-bottom: 25px;
+    word-spacing: 2px;
+}
+.productDesc{
+    font: 400 22px 'Raleway', sans-serif;
+    color: var(--background-color);
+    line-height: 180%;
+    word-spacing: 2px;
+}
+.imagePart{
+    position: relative;
+    background-color: var(--brand-2);
+    height: 600px;
+}
+.imageProduct{
+}
+
