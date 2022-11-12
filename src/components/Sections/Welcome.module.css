@@ -13,16 +13,22 @@
     width: 900px;
 }
 .button{
-    font: 800 20px 'Quicksand', sans-serif;
+    display: flex;
+    font: 800 20px 'Raleway', sans-serif;
     border: 2px solid var(--brand);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-transform: uppercase;
-    background-color: var(--primary);
+    background-color: var(--button);
     cursor: pointer;
     letter-spacing: 5px;
+    height: 70px;
+    transition: all .2s ease-in-out;
+}
+.button:hover{
+    background-color: var(--primary);
+    transition: all .2s ease-in-out;
 }
 .highlight{
     height: 150px;

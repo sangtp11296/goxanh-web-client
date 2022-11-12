@@ -1,5 +1,5 @@
 .headline{
-    font: 600 70px 'Vollkorn SC', serif;
+    font: 600 75px 'Vollkorn SC', serif;
     color: var(--brand);
     align-self: left;
     margin-top: 100px;
@@ -12,19 +12,19 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .productWrapper{
     background-color: var(--brand);
-    height: 700px;
+    height: 1000px;
     width: 100%;
 }
 .productInfo{
     width: 50%;
-    margin: 50px;
-    margin-left: 200px;
-    margin-right: 400px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .productTitle{
     font: 500 50px 'Lora', serif;
@@ -32,22 +32,97 @@
     margin-bottom: 15px;
 }
 .productTagline{
-    font: 400 30px 'Raleway', sans-serif;
-    color: var(--background-color);
+    font: 600 30px 'Quicksand', sans-serif;
+    color: var(--pop-up);
     margin-bottom: 25px;
     word-spacing: 2px;
 }
 .productDesc{
-    font: 400 22px 'Raleway', sans-serif;
+    font: 400 22px 'Quicksand', sans-serif;
     color: var(--background-color);
     line-height: 180%;
     word-spacing: 2px;
 }
+.readMore{
+    font: 400 20px 'Quicksand', sans-serif;
+    margin-top: 5%;
+    color: var(--pop-up);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.readMore i{
+    padding-left: 6px;
+    
+}
 .imagePart{
     position: relative;
+    height: 100%;
+    width: 50%;
+}
+.imageWrapper{
+    height: inherit;
+}
+.productBackground{
+    position: absolute;
+    right: 0;
+    top: -10%;
     background-color: var(--brand-2);
-    height: 600px;
+    height: 70%;
+    width: 75%;
+}
+.productBackground::before{
+    content: '';
+    top: 3%;
+    left: 5%;
+    position: absolute;
+    border: 1.5px solid var(--pop-up);
+    width: 90%;
+    height: 93%;
 }
 .imageProduct{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    z-index: 2;
+}
+.imageProduct img{
+    height: 500px;
+}
+.productBackground::after{
+    position: absolute;
+    content: '';
+    background-color: var(--brand-3);
+    width: 40%;
+    height: 30%;
+    top: 40%;
+    left: -15%;
+    z-index: 1;
+}
+.button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 45%;
+    font: 1000 20px 'Raleway', sans-serif;
+    border: 2px solid var(--brand);
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+    background-color: var(--button);
+    cursor: pointer;
+    letter-spacing: 2px;
+    height: 70px;
+    color: var(--brand);
+    transition: all .2s ease-in-out;
+    z-index: 3;
+}
+.button:hover{
+    background-color: var(--primary);
+    transition: all .2s ease-in-out;
+}
+.button i{
+    margin-right: 15px;
+    color: var(--brand);
 }
 
