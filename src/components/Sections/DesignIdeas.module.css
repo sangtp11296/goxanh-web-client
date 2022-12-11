@@ -1,0 +1,91 @@
+.designContainer{
+    margin-top: 250px;
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: var(--brand);
+}
+.designWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.headline{
+    font: 600 65px 'Vollkorn SC', serif;
+    color: var(--line);
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    z-index: 2;
+    position: relative;
+}
+.descPart{
+    font: 400 20px 'Quicksand', sans-serif;
+    color: var(--background-color);
+    line-height: 180%;
+    word-spacing: 2px;
+    margin-right: 250px;
+    z-index: 2;
+    position: relative;
+}
+.imagePart{
+    margin: 50px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.imageContainter img{
+    width: 370px;
+}
+.imageContainter:nth-child(1){
+    margin-left:30px;
+    align-self: flex-end;
+}
+.imageContainter:nth-child(2){
+    margin-left:30px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+.imageContainter:nth-child(3){
+    margin-right:30px;
+    margin-top: 30px;
+}
+.contentPart{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    height: 1000px;
+}
+.cornerImage{
+    z-index: 1;
+    position: absolute;
+    bottom: -20%;
+    left: 30%;
+}
+.button{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1000 20px 'Raleway', sans-serif;
+    border: 2px solid var(--brand);
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+    background-color: var(--button);
+    cursor: pointer;
+    letter-spacing: 2px;
+    height: 70px;
+    color: var(--brand);
+    transition: all .2s ease-in-out;
+    margin-top: 50px;
+}
+.button:hover{
+    background-color: var(--primary);
+    transition: all .2s ease-in-out;
+}
+.button i{
+    margin-right: 15px;
+    color: var(--brand);
+}
