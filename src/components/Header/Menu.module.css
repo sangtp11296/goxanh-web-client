@@ -4,6 +4,7 @@
     align-items: center;
     position: relative;
     border-bottom: 2px solid var(--line);
+    box-shadow: 0px 2px 6px 0px rgba(184,184,184,0.75);
 }
 .mainNav{
     display: flex;
@@ -21,7 +22,8 @@
     cursor: pointer;
     transition: all .2s ease;
 }
-.item a:visited, a:active{
+.item a{
+    color: var(--brand);
     text-decoration: none;
     color: inherit;
 }

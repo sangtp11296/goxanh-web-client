@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../../components/Footer/Footer'
 import { BrandHeader } from '../../components/Header/BrandHeader'
 import { Menu } from '../../components/Header/Menu'
 import styles from './Contact.module.css'
@@ -309,6 +310,7 @@ export const Contact = () => {
                 </form>
             </div>
         </div>
+        <Footer/>
     </div>
   )
 }

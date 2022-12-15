@@ -1,0 +1,18 @@
+.buttonContainer{
+    height: 50px;
+    width: 50px;
+    background-color: var(--brand);
+    border-radius: 50%;
+    position: sticky;
+    top: 94vh;
+    left: 97vw;
+    /* display: flex; */
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buttonContainer i{
+    scale: 1.6;
+    color: var(--background-color);
+}

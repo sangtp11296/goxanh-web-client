@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Footer } from '../../components/Footer/Footer'
 import { BrandHeader } from '../../components/Header/BrandHeader'
 import { Menu } from '../../components/Header/Menu'
 import styles from './About.module.css'
@@ -70,6 +71,7 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }
