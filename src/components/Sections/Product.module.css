@@ -4,6 +4,7 @@
     flex-direction: column;
     margin-left: 10vw;
     margin-right: 10vw;
+    min-width: 1300px;
 }
 .headline{
     font: 600 75px 'Vollkorn SC', serif;
@@ -75,9 +76,11 @@
     bottom: 0;
     z-index: 2;
 }
-.imageProduct img{
-    width: 100%;
-    max-width: 400px;
+.firstProduct img{
+    width: 90%;
+}
+.secondProduct img{
+    width: 60%;
 }
 .imageWrapper{
     height: inherit;
@@ -168,4 +171,35 @@
     margin-right: 15px;
     color: var(--brand);
 }
-
+@media only screen and (max-width: 2000px){
+    .productTitle{
+        font: 500 50px 'Lora', serif;
+        color: var(--background-color);
+        margin-bottom: 15px;
+    }
+    .productTagline{
+        font: 600 30px 'Quicksand', sans-serif;
+        color: var(--pop-up);
+        margin-bottom: 25px;
+        word-spacing: 2px;
+    }
+    .productDesc{
+        font: 400 21px 'Quicksand', sans-serif;
+        color: var(--background-color);
+        line-height: 180%;
+        word-spacing: 2px;
+    }
+    .readMore{
+        font: 400 25px 'Quicksand', sans-serif;
+        margin-top: 4%;
+        color: var(--pop-up);
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    .productSection{
+        height: 600px;
+    }
+    .productSection2{
+        height: 600px;
+    }
+}

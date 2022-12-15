@@ -20,7 +20,7 @@ export const Product = () => {
             <div className={styles.imagePart}>
               <div className={styles.imageWrapper}>
                 <div className={styles.productBackground}></div>
-                <div className={styles.imageProduct}>
+                <div className={`${styles.imageProduct} ${styles.firstProduct}`}>
                   <img alt='12-slat deck tiles' src='/products/12-slat.png' ></img>
                 </div>
                 <div className={styles.button}>
@@ -34,7 +34,7 @@ export const Product = () => {
             <div className={styles.imagePart}>
               <div className={styles.imageWrapper}>
                 <div className={styles.productBackground}></div>
-                <div className={styles.imageProduct}>
+                <div className={`${styles.imageProduct} ${styles.secondProduct}`}>
                   <img alt='12-slat deck tiles' src='/products/6-slat.png' ></img>
                 </div>
                 <div className={styles.button}>

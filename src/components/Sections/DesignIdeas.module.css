@@ -4,6 +4,7 @@
     margin-left: 10vw;
     margin-right: 10vw;
     background-color: var(--brand);
+    min-width: 1300px;
 }
 .designWrapper{
     display: flex;
@@ -17,10 +18,7 @@
     margin-right: 15px;
     color: var(--brand);
 }
-.imageContainter img{
-    max-width: 370px;
-    width: 100%;
-}
+
 .imageContainter:nth-child(1){
     margin-left:30px;
     align-self: flex-end;
@@ -66,7 +64,7 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2134px) {
     .headline{
         font: 600 65px 'Vollkorn SC', serif;
         color: var(--line);
@@ -91,11 +89,19 @@
         bottom: -20%;
         left: 30%;
     }
+    .cornerImage img{
+        height: 1200px;
+    }
+    .contentPart{
+        height: 1000px;
+    }
+    .imageContainter img{
+        max-width: 370px;
+    }
 }
-
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 2134px){
     .headline{
-        font: 600 45px 'Vollkorn SC', serif;
+        font: 600 50px 'Vollkorn SC', serif;
         color: var(--line);
         margin-top: 150px;
         margin-bottom: 50px;
@@ -112,21 +118,55 @@
         z-index: 2;
         position: relative;
     }
-    .imageContainter img{
-        width: 270px;
-    }
     .cornerImage{
         z-index: 1;
         position: absolute;
         bottom: -20%;
         left: 20%;
-
     }
     .cornerImage img{
-        height: 70%;
+        height: 1100px;
     }
+    .imageContainter img{
+        width: 300px;
+    }
+
 }
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1784px){
+    .headline{
+        font: 600 45px 'Vollkorn SC', serif;
+        color: var(--line);
+        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-right: 150px;
+        z-index: 2;
+        position: relative;
+    }
+    .descPart{
+        font: 400 15px 'Quicksand', sans-serif;
+        color: var(--background-color);
+        line-height: 180%;
+        word-spacing: 2px;
+        margin-right: 150px;
+        z-index: 2;
+        position: relative;
+    }
+    .cornerImage{
+        z-index: 1;
+        position: absolute;
+        bottom: -20%;
+        left: 30%;
+    }
+    .cornerImage img{
+        height:800px;
+    }
+    .imageContainter img{
+        width: 250px;
+    }
+
+}
+/* @media only screen and (max-width: 1200px){
     .headline{
         font: 600 25px 'Vollkorn SC', serif;
         color: var(--line);
@@ -174,4 +214,4 @@
         transition: all .2s ease-in-out;
         margin-top: 50px;
     }
-}
+} */

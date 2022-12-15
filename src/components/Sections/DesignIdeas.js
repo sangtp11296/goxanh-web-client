@@ -31,7 +31,7 @@ export const DesignIdeas = () => {
             <span>Our Products</span>
           </div>
           <div className={styles.cornerImage}>
-            <img alt='' src='/products/16.png' style={{height:'1100px'}}></img>
+            <img alt='' src='/products/16.png'></img>
           </div>
         </div>
       </div>

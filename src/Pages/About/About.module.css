@@ -36,6 +36,15 @@
     margin-bottom: 100px;
     justify-content: space-around;
 }
+.secondSection{
+    background-color: var(--brand);
+}
+.secondSection .textSide h2{
+    color: var(--background-color);
+}
+.secondSection .textSide .contentPart{
+    color: var(--background-color);
+}
 .textSide{
     align-self:flex-end;
 }
