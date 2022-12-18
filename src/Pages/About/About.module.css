@@ -47,6 +47,9 @@
 }
 .textSide{
     align-self:flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .textSide h2{
     font: 500 40px 'Lora', serif;
@@ -65,4 +68,27 @@
 }
 .imageSide img{
     width: 500px;
+}
+.imageCarousel{
+    width: 100vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.imageContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    animation: imagecarousel 20s linear infinite;
+}
+.childImage{
+    margin-right: 10px;
+}
+.childImage img{
+    height: 200px;
+}
+@keyframes imagecarousel {
+    0% {left: 0;}
+    100% {left: -100%;}
 }

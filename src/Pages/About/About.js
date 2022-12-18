@@ -71,6 +71,34 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <div className={styles.imageCarousel}>
+          <div className={styles.imageContainer}>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/1.webp'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/3.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/10.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/11.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/12.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/13.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/14.jpg'/>
+            </div>
+            <div className={styles.childImage}>
+              <img alt='' src='/products/15.jpg'/>
+            </div>
+          </div>
+        </div>
         <Footer/>
     </div>
   )

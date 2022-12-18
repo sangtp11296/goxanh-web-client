@@ -16,7 +16,11 @@ export const Menu = () => {
                 About
               </Link>
             </li>
-            <li className={styles.item}>Product</li>
+            <li className={styles.item}>
+              <Link to='/product'>
+                Product
+              </Link>
+            </li>
             <li className={styles.item}>Order</li>
             <li className={styles.item}>
               <Link to='/contact'>
