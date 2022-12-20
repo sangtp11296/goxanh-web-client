@@ -1,0 +1,112 @@
+.aboutCover{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+    background-image: url('../../../public/products/17.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.aboutCover h2{
+    margin-left: 25%;
+    margin-top: 100px;
+    font: 500 40px 'Lora', serif;
+    color: var(--background-color);
+}
+.aboutCover h3{
+    margin-top: 10px;
+    margin-left: 25%;
+    font: 400 20px 'Quicksand', sans-serif;
+    color: var(--background-color);
+}
+.aboutCover h3 a{
+    color: var(--background-color);
+}
+.shopContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shopRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.shopContent{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.productWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.itemWrapper{
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.itemInner{
+    transition: 0.3s all;
+    position: relative;
+}
+.itemImage{
+    background: var(--brand);
+    position: relative;
+    margin-bottom: 19px;
+    overflow: hidden;
+    text-align: center;
+}
+.itemWrapper:hover .gallery{
+    opacity: 1;
+}
+.itemImage a{
+    transition: 0.3s ease;
+    outline: none !important;
+}
+.itemImage a img{
+    transition: all 0.5s cubic-bezier(0,0,.2,1);
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    will-change: transform;
+}
+.itemImage a span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+.itemImage a span img{
+    transition: all 0.5s cubic-bezier(0,0,.2,1);
+    width: 100%;
+}
+@media only screen and (min-width: 1441px){
+    .shopWrapper{
+        max-width: 1320px !important;
+    }
+
+}

@@ -17,8 +17,8 @@ export const Menu = () => {
               </Link>
             </li>
             <li className={styles.item}>
-              <Link to='/product'>
-                Product
+              <Link to='/shop'>
+                Shop
               </Link>
             </li>
             <li className={styles.item}>Order</li>
