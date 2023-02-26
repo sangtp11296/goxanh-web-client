@@ -5,6 +5,7 @@
     position: relative;
     border-bottom: 2px solid var(--line);
     box-shadow: 0px 2px 6px 0px rgba(184,184,184,0.75);
+    min-width: 1300px;
 }
 .mainNav{
     display: flex;
@@ -33,7 +34,7 @@
 }
 .costumerCart{
     position: absolute;
-    right: 400px;
+    right: 15%;
 }
 .costumerCart i{
     transition: all .2s ease;

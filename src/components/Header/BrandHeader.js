@@ -20,7 +20,7 @@ export const BrandHeader = () => {
             </div>
         </label>
         <Link to='/' className={styles.logoBrand}>
-            <img src='Greenwood-logo.png' alt='green-wood' style={{height:80}}></img>
+            <img src='/products/Greenwood-logo.png' alt='green-wood' style={{height:80}}></img>
         </Link>
         <div className={styles.socialPart}>
             <a  href='https://www.facebook.com/sang.tp.11296' rel="noopener noreferrer">

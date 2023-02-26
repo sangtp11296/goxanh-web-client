@@ -1,0 +1,17 @@
+.siteMap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 13%;
+}
+.siteMap h3{
+    font: 600 14px 'Lora', serif;
+    color: var(--brand);
+    /* text-transform: uppercase; */
+}
+.siteMap h3 a{
+    color: var(--brand);
+    opacity: .7;
+}
+.siteMap h3 a:hover{
+    opacity: 1;
+}

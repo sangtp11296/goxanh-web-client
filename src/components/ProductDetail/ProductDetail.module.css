@@ -1,0 +1,116 @@
+.productDetailContainer{
+    width: 100%;
+}
+.productWrapper{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: var(--background-color);
+    height: 1000px;
+    min-width: 1300px;
+}
+.mainProduct{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.productImages{
+    display: flex;
+
+}
+.sideImages{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.sideImages img{
+    margin-bottom: 10px;
+}
+.largeImage img{
+    box-shadow: 0px 0px 3px 2px var(--pop-up);
+}
+.productContent{
+    margin-left: 50px;
+}
+.productName h1{
+    font: 800 35px 'Lora', serif;
+    color: var(--brand);
+    letter-spacing: 2px;
+}
+.subTitle{
+    font: 600 20px 'Quicksand', sans-serif;
+    color: var(--brand);
+    opacity: .8;
+}
+.starRating{
+    margin-top: 10px;
+    
+}
+.starRating i{
+    color: var(--pop-up);
+}
+.starRating .checked{
+    color: var(--secondary);
+}
+.starRating span{
+    margin-left: 10px;
+    font: 500 15px 'Quicksand', sans-serif;
+    color: var(--pop-up);
+}
+.price{
+    margin-top: 10px;
+    font: 600 20px 'Lexend Deca', sans-serif;
+}
+.iniPrice{
+    text-decoration: line-through;
+    color: black;
+    opacity: .5;
+}
+.finalPrice{
+    color: var(--secondary);
+    margin-left: 10px;
+}
+.productDesc{
+    font: 400 17px 'Quicksand', sans-serif;
+    color: var(--brand);
+    letter-spacing: .5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.productColor{
+    font: 1000 13px 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    color: var(--brand);
+    margin-top: 20px;
+}
+.productColor span{
+    margin-left: 10px;
+    color: var(--pop-up);
+    text-transform:capitalize;
+}
+.colorList{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+/* .colorItem{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+    background-color: #bbb;
+    background-clip: padding-box;
+    padding: 1px;
+} */
+.colorItem{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #2ed091;
+    margin-right: 20px;
+    cursor: pointer;
+    background-clip: content-box;
+    padding: 3px;
+}

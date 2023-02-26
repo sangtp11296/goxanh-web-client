@@ -10,16 +10,20 @@ export const Footer = () => {
                 <ul className={styles.mainNav}>
                 Links
                     <li className={styles.item}>
-                    <Link to='/'>
-                        Home
-                    </Link>
+                        <Link to='/'>
+                            Home
+                        </Link>
                     </li>
                     <li className={styles.item}>
-                    <Link to='/about'>
-                        About
-                    </Link>
+                        <Link to='/about'>
+                            About
+                        </Link>
                     </li>
-                    <li className={styles.item}>Product</li>
+                    <li className={styles.item}>
+                        <Link to='/shop'>
+                            Shop
+                        </Link>
+                    </li>
                     <li className={styles.item}>Order</li>
                     <li className={styles.item}>
                     <Link to='/contact'>
@@ -30,12 +34,12 @@ export const Footer = () => {
                 <ul className={styles.mainNav}>
                 Products
                     <li className={styles.item}>
-                        <Link to='/'>
+                        <Link to='/product/12-slat-deck-tile'>
                             12-Slat Deck Tile
                         </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/about'>
+                        <Link to='/product/6-slat-deck-tile'>
                             6-Slat Deck Tile
                         </Link>
                     </li>
@@ -43,7 +47,7 @@ export const Footer = () => {
             </div>
             <div className={`${styles.brand} ${styles.flexItem}`}>
                 <Link to='/' className={styles.logoBrand}>
-                    <img src='Greenwood-logo.png' alt='green-wood' style={{height:140}}></img>
+                    <img src='/products/Greenwood-logo.png' alt='green-wood' style={{height:140}}></img>
                 </Link>
                 <span>There are probably a million other businesses that sell what you're selling, but no one else shares your story.</span>
             </div>

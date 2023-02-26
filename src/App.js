@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { About } from "./Pages/About/About";
 import { Contact } from "./Pages/Contact/Contact";
 import { Home } from "./Pages/Home/Home";
+import {Product} from "./Pages/Product/Product";
 import { Shop } from "./Pages/Shop/Shop";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/product/1' element={<Product/>}/>
       </Routes>
     </Router>
   );

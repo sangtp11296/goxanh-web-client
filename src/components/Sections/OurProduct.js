@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Product.module.css'
+import styles from './OurProduct.module.css'
 
-export const Product = () => {
+export const OurProduct = () => {
   return (
     <div className={styles.productContainer}>
         <span className={styles.headline}>Our Products</span>
