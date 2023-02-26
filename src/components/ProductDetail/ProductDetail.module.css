@@ -86,7 +86,7 @@
 .productColor span{
     margin-left: 10px;
     color: var(--pop-up);
-    text-transform:capitalize;
+    text-transform: uppercase;
 }
 .colorList{
     margin-top: 10px;
@@ -94,23 +94,13 @@
     flex-direction: row;
     list-style: none;
 }
-/* .colorItem{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 30px;
-    background-color: #bbb;
-    background-clip: padding-box;
-    padding: 1px;
-} */
 .colorItem{
     width: 35px;
     height: 35px;
     border-radius: 100%;
-    background-color: #2ed091;
-    margin-right: 20px;
+    margin-right: 15px;
     cursor: pointer;
     background-clip: content-box;
+    background-position: center;
     padding: 3px;
 }

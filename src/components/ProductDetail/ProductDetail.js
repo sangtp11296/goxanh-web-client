@@ -3,7 +3,7 @@ import styles from './ProductDetail.module.css'
 
 export default function ProductDetail() {
     const image_list = ['1.webp','2.png','3.jpg','4.avif','5.avif']
-    const color_list = ['brown', 'yellow', 'natural']
+    const color_list = ['antique_oak', 'chestnut', 'ebony', 'larch', 'light_oak', 'palisander', 'pine', 'teak', 'wenge']
     const [activ, setActiv] = useState(image_list[0]) 
     const [color,setColor] = useState('')
     function incrementValue(){
@@ -66,8 +66,8 @@ export default function ProductDetail() {
                             {color_list.map((col)=>{
                                 return(
                                     col===color ? 
-                                    <li className={styles.colorItem} onClick={()=>setColor(col)} style={{border:'2px solid #FFF',boxShadow:'0 0 5px #888'}}></li>:
-                                    <li className={styles.colorItem} onClick={()=>setColor(col)}></li>
+                                    <li className={styles.colorItem} onClick={()=>setColor(col)} style={{border:'1px solid #FFF',boxShadow:'0 0 3px #888',backgroundImage:`url(/color/${col}.jpg)`}}></li>:
+                                    <li className={styles.colorItem} onClick={()=>setColor(col)} style={{backgroundImage:`url(/color/${col}.jpg)`}}></li>
                                 )
                             })}
                         </ul>
